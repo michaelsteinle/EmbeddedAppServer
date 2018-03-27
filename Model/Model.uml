@@ -4,9 +4,23 @@
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
   <packagedElement xmi:type="uml:Model" xmi:id="_VneZMDHPEeiY4qxm8uentQ" name="Overview">
-    <packagedElement xmi:type="uml:ExecutionEnvironment" xmi:id="_oOuBIDHPEeiY4qxm8uentQ" name="System Under Development"/>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_ApqbUDH3Eei8MaJQ1WqhNw" annotatedElement="_u5_xEDH1Eei8MaJQ1WqhNw">
+      <body>service call from another 
+service (client-side)</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_bekoQDH3Eei8MaJQ1WqhNw" annotatedElement="_u5_xEDH1Eei8MaJQ1WqhNw">
+      <body>service requested by a client
+call (server-side)</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_kYFmoDH3Eei8MaJQ1WqhNw" annotatedElement="_oOuBIDHPEeiY4qxm8uentQ">
+      <body>Client</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_o1qlMDH3Eei8MaJQ1WqhNw" annotatedElement="_oOuBIDHPEeiY4qxm8uentQ">
+      <body>Server</body>
+    </ownedComment>
+    <packagedElement xmi:type="uml:ExecutionEnvironment" xmi:id="_oOuBIDHPEeiY4qxm8uentQ" name="Embedded Application Server"/>
     <packagedElement xmi:type="uml:ExecutionEnvironment" xmi:id="_scmW0DHPEeiY4qxm8uentQ" name="Client"/>
-    <packagedElement xmi:type="uml:Usage" xmi:id="_zItCcDHPEeiY4qxm8uentQ" client="_VneZMDHPEeiY4qxm8uentQ" supplier="_oOuBIDHPEeiY4qxm8uentQ"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_zItCcDHPEeiY4qxm8uentQ" client="_VneZMDHPEeiY4qxm8uentQ" supplier="_VneZMDHPEeiY4qxm8uentQ"/>
     <packagedElement xmi:type="uml:Actor" xmi:id="_9N2tgDHPEeiY4qxm8uentQ" name="Software Developer"/>
     <packagedElement xmi:type="uml:Actor" xmi:id="_-y3jgDHPEeiY4qxm8uentQ" name="System Integrator"/>
     <packagedElement xmi:type="uml:Actor" xmi:id="_AcOuADHQEeiY4qxm8uentQ" name="System Tester"/>
@@ -17,5 +31,9 @@
     <packagedElement xmi:type="uml:Usage" xmi:id="_NitcEDHQEeiY4qxm8uentQ" client="_AcOuADHQEeiY4qxm8uentQ" supplier="_oOuBIDHPEeiY4qxm8uentQ"/>
     <packagedElement xmi:type="uml:Actor" xmi:id="_Ot1ycDHQEeiY4qxm8uentQ" name="Component Tester"/>
     <packagedElement xmi:type="uml:Usage" xmi:id="_R5At8DHQEeiY4qxm8uentQ" client="_Ot1ycDHQEeiY4qxm8uentQ" supplier="_oOuBIDHPEeiY4qxm8uentQ"/>
+    <packagedElement xmi:type="uml:ExecutionEnvironment" xmi:id="_u5_xEDH1Eei8MaJQ1WqhNw" name="Service"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_0Y9UIDH1Eei8MaJQ1WqhNw" client="_oOuBIDHPEeiY4qxm8uentQ" supplier="_u5_xEDH1Eei8MaJQ1WqhNw"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_apnysDH2Eei8MaJQ1WqhNw" client="_VneZMDHPEeiY4qxm8uentQ" supplier="_oOuBIDHPEeiY4qxm8uentQ"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_ftII0DH2Eei8MaJQ1WqhNw" client="_oOuBIDHPEeiY4qxm8uentQ" supplier="_oOuBIDHPEeiY4qxm8uentQ"/>
   </packagedElement>
 </uml:Model>
