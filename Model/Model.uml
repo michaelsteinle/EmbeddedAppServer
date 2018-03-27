@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_GfSSEDHPEeiY4qxm8uentQ" name="Model">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_GpsyUDHPEeiY4qxm8uentQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Model" xmi:id="_VneZMDHPEeiY4qxm8uentQ" name="Overview">
+    <packagedElement xmi:type="uml:ExecutionEnvironment" xmi:id="_oOuBIDHPEeiY4qxm8uentQ" name="System Under Development"/>
+    <packagedElement xmi:type="uml:ExecutionEnvironment" xmi:id="_scmW0DHPEeiY4qxm8uentQ" name="Client"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_zItCcDHPEeiY4qxm8uentQ" client="_VneZMDHPEeiY4qxm8uentQ" supplier="_oOuBIDHPEeiY4qxm8uentQ"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_9N2tgDHPEeiY4qxm8uentQ" name="Software Developer"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_-y3jgDHPEeiY4qxm8uentQ" name="System Integrator"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_AcOuADHQEeiY4qxm8uentQ" name="System Tester"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_B5iZgDHQEeiY4qxm8uentQ" name="Component Tester"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_GevDADHQEeiY4qxm8uentQ" client="_9N2tgDHPEeiY4qxm8uentQ" supplier="_oOuBIDHPEeiY4qxm8uentQ"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_Jdt8oDHQEeiY4qxm8uentQ" client="_-y3jgDHPEeiY4qxm8uentQ" supplier="_oOuBIDHPEeiY4qxm8uentQ"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_LeVJgDHQEeiY4qxm8uentQ" client="_B5iZgDHQEeiY4qxm8uentQ" supplier="_oOuBIDHPEeiY4qxm8uentQ"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_NitcEDHQEeiY4qxm8uentQ" client="_AcOuADHQEeiY4qxm8uentQ" supplier="_oOuBIDHPEeiY4qxm8uentQ"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_Ot1ycDHQEeiY4qxm8uentQ" name="Component Tester"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_R5At8DHQEeiY4qxm8uentQ" client="_Ot1ycDHQEeiY4qxm8uentQ" supplier="_oOuBIDHPEeiY4qxm8uentQ"/>
+  </packagedElement>
+</uml:Model>
